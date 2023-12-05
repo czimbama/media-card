@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+section {
+    border: 2px solid black;
+}
+
+.material-symbols-outlined {
+  font-size: 36px !important;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 32;
+}
+section {
+    border-radius: 16px;
+}
+.container {
+    position: relative;
+    height: auto
+}
+.container img {
+    border-radius: 16px 16px 0 0;
+}
+.bottom-left {
+    padding: 0 .5em;
+    position: absolute;
+    bottom: 0;
+    font-size: 3em;
+    font-weight: 900;
+    color: white;
+    font-family: cursive;
+}
+footer {
+    padding: 0 .5em;
+}
+.play {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
